@@ -380,11 +380,11 @@ span{
     max-height: 200px;
     justify-content: center;
     align-items: baseline;
-    padding: 5em;
 }
 
 
 .service-info h4{
+    
     animation: transitionIn 1s;
     font-size: 5rem;
     color: var(--second-bg-color);
@@ -593,7 +593,7 @@ span{
     .services-container{
         padding-bottom: 7rem;
         grid-template-columns: repeat(1,1fr);
-        margin: 0 5rem;
+        margin: 0 5rem;;
     }
 }
 @media(max-width: 991px){
