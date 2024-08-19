@@ -118,12 +118,14 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contato</span></h2>
 
-        <form action="https://formsubmit.co/prof.carlos.costa@acad.ifma.edu.br" method="POST">
+        <form action="https://api.web3forms.com/submit" method="POST">
             <div class="input-box">
+                <input type="hidden" name="access_key" value="4a7f1c63-b1cb-4d5d-b80c-4672f5671e07">
                 <input type="text" name="name" placeholder="Nome completo">
                 <input type="email" name="email" placeholder="Email">
                 <input type="number" name="number" placeholder="Número de telefone">
                 <input type="text" name="subject" placeholder="Assunto">
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
             </div>
             <textarea name="" id="" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
             <input type="submit" value="Enviar" class="btn">
